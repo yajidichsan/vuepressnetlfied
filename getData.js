@@ -26,23 +26,4 @@ $(document).ready(function () {
         }
     });
 });
-function goBack() {
-    window.history.go(-1);
-}
-function LihatPassword() {
-    var x = document.getElementById("Password");
-    if (x.type === "password") {
-        x.type = "text";
-    } else {
-        x.type = "password";
-    }
-}
-function LihatPasswordBaru() {
-    var x = document.getElementById("PasswordBaru");
-    if (x.type === "password") {
-        x.type = "text";
-    } else {
-        x.type = "password";
-    }
-}
-    
+//fix error
