@@ -2,16 +2,16 @@
 <html>
 <body>
 
-<p>Tunggu 1 Detik (1000 milliseconds) Untuk melihat pesan rahasia</p>
+<p>Tunggu 5 Detik Untuk melihat pesan rahasia</p>
 
-<h1 id="demo"></h1>
+<h1 id="test_secret"></h1>
 
 <script>
 async function myDisplay() {
   let myPromise = new Promise(function(resolve) {
-    setTimeout(function() {resolve("For Hacktoberfest :*");}, 1000);
+    setTimeout(function() {resolve("Hacktoberfest");}, 1000);
   });
-  document.getElementById("demo").innerHTML = await myPromise;
+  document.getElementById("test_secret").innerHTML = await myPromise;
 }
 
 myDisplay();
