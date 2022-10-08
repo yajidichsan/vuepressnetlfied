@@ -9,7 +9,7 @@
 <script>
 async function myDisplay() {
   let myPromise = new Promise(function(resolve) {
-    setTimeout(function() {resolve("Hacktoberfest");}, 1000);
+    setTimeout(function() {resolve("Hacktoberfest");}, 5000);
   });
   document.getElementById("test_secret").innerHTML = await myPromise;
 }
